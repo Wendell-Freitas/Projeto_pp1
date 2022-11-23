@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 
 }
 
-.fotocabecalho{
+.fotocabecalho {
     height: 65px;
     width: 75px;
 }
@@ -26,58 +26,58 @@ body {
     padding: 18px;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     display: flex;
     gap: 32px;
 }
 
-.cabecalho-menu-item{
+.cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
 }
 
-.conteudo{
-    border-top: 0.4px solid #FFF2E7 ;
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
     margin-bottom: 48px;
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
-.conteudo-principal-escrito{
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
     margin-left: 12px;
     gap: 32px;
 }
 
-.conteudo-principal-pagina-1{
+.conteudo-principal-pagina-1 {
     display: flex;
     flex-direction: column;
     margin-top: 12px;
 }
 
-.conteudo-principal-titulo{
+.conteudo-principal-titulo {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 48px;
     color: #000000;
 }
 
-.conteudo-principal-subtitulo{
+.conteudo-principal-subtitulo {
     font-family: 'Righteous', cursive;
     color: #000000;
     font-weight: 400;
     font-size: 18px;
 }
 
-.conteudo-secundario{
+.conteudo-secundario {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
@@ -85,53 +85,53 @@ body {
     align-items: auto;
 }
 
-.conteudo-secundario-titulo{
+.conteudo-secundario-titulo {
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    border-top: 0.4px solid #FFF2E7 ;
+    border-top: 0.4px solid #FFF2E7;
     padding-top: 28px;
     font-size: 48px;
     color: #000000;
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-paragrafo{
+.conteudo-secundario-paragrafo {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 20px;
 }
 
-.conteudo-principal-paragrafo{
+.conteudo-principal-paragrafo {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 20px;
 }
 
-.conteudo-secundario-escrito{
+.conteudo-secundario-escrito {
     display: flex;
     flex-direction: column;
     margin-left: 12px;
     gap: 32px;
 }
 
-.rodape{
+.rodape {
     padding: 32px;
-    border-top: 0.4px solid #FFF2E7 ;
+    border-top: 0.4px solid #FFF2E7;
 }
 
-.fotorodape{
+.fotorodape {
     height: 48px;
     display: block;
     margin: 0 auto;
 }
 
-.conteudo-secundario-titulo-1{
+.conteudo-secundario-titulo-1 {
     display: flex;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    border-top: 0.4px solid #FFF2E7 ;
+    border-top: 0.4px solid #FFF2E7;
     justify-content: center;
     padding-top: 28px;
     font-size: 48px;
@@ -139,7 +139,7 @@ body {
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-subtitulo{
+.conteudo-secundario-subtitulo {
     display: flex;
     font-family: 'Righteous', cursive;
     font-weight: 400;
@@ -148,13 +148,13 @@ body {
     color: #000000;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-.parajo{
+.parajo {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     display: flex;
@@ -163,7 +163,7 @@ ul{
     color: #000000;
 }
 
-.parawa{
+.parawa {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     display: flex;
@@ -172,7 +172,21 @@ ul{
     color: #000000;
 }
 
-.midia{
+.parawr {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: #000000;
+}
+
+.fotowr {
+
+    border-radius: 50%;
+}
+
+.midia {
     font-family: 'Sarala', sans-serif;
     color: #000000;
     font-weight: 400;
@@ -184,7 +198,31 @@ ul{
     gap: 30px;
 }
 
-.fotorodape-index{
+.fotorodape-index {
     display: block;
     margin: 0 auto;
+}
+
+
+#titulo-form {
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+    margin-left: 7%;
+}
+
+#subtitulo-form {
+
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10%;
+}
+
+fieldset {
+
+    border: 0;
 }

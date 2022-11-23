@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body id="body-form">
+
+    <header class="cabecalho">
+        <img class="fotocabecalho" src="imgs/logoofc.png">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Voltar ao inicio</a>
+            <a class="cabecalho-menu-item" href="page3.html">Exemplo de historias</a>
+            <a class="cabecalho-menu-item" href="page4.html">Cronogramas e metas</a>
+
+        </nav>
+    </header>
+
+    <div>
+        <h1 id="titulo-form">Cadastro</h1>
+        <p id="subtitulo-form">Insira suas Infomações</p>
+    </div>
+
+    <form class="formulario" action="index.html" method="get"></form>
+    <fieldset class="grupo-form">
+        <div class="campo-form">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="campo-form">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenomenome">
+        </div>
+
+
+        <div class="campo-form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="campo-form">
+            <label for="senha"> Defina sua Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+    </fieldset>
+
+    <button class="botao" type="submit">Salvar</button>
+    <button class="botao" type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>
